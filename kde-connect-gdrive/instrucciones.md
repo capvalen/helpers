@@ -1,7 +1,9 @@
 # Instrucciones
 
 Ubicar la ruta:
-`/usr/share/accounts/providers/kde`
+>`/usr/share/accounts/providers/kde`
 
 Editar el archivo:
-`google.provider`
+>`google.provider`
+
+Reemplaza el contenido por el txt
