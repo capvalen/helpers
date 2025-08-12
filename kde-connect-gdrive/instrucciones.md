@@ -1,9 +1,7 @@
-#Instrucciones
+# Instrucciones
 
 Ubicar la ruta:
-`code`
-/usr/share/accounts/providers/kde
-`code`
+`/usr/share/accounts/providers/kde`
 
 Editar el archivo:
-google.provider
+`google.provider`
