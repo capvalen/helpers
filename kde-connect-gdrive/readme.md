@@ -4,15 +4,21 @@ Explicación:
 : El sistema linux KDE, tiene problemas con la API de Google para conectarse a Google Drive
 : Para ello reemplazamos el proveedor por la de GNOME
 
-1. Ubicamos la ruta:
+1. Previamente, asegúrate de tener instalado los complementos de KDE por terminal:
+
+`sudo apt install kaccounts-providers`
+
+`sudo apt install kio-gdrive `
+
+2. Ubicamos la ruta:
 
 `/usr/share/accounts/providers/kde`
 
-2. Editar el archivo:
+3. Editar el archivo:
 
 `google.provider`
 
-3. Reemplazar este contenido:
+4. Reemplazar este contenido:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -54,5 +60,5 @@ Explicación:
 </provider>
 ```
 
-4. Guardar como administrador
-5. Realizar la conexión
+5. Guardar como administrador
+6. Realizar la conexión
